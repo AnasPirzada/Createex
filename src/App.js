@@ -7,6 +7,7 @@ import ContactUs from './pages/ContactUs/ContactUs.js';
 // import MainPage from './pages/Home/mainSection/MainPage .js';
 function App() {
   return (
+    // BrowserRouter start
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
