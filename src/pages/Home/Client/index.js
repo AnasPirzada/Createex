@@ -1,20 +1,20 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import Crousel from './crousel/crouselTestimonial.js';
-import './style.css';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Crousel from "./crousel/crouselTestimonial.js";
+import "./style.css";
 export const index = () => {
   return (
-    <div className='testmoniabackground'>
+    <div className="testmoniabackground">
       <Container
         style={{
-          textAlign: 'center',
+          textAlign: "center",
         }}
       >
         <Row>
           <h5
             style={{
-              marginTop: '170px',
-              color: '#72B63C',
+              marginTop: "170px",
+              color: "#72B63C",
             }}
           >
             Testimonial
@@ -23,7 +23,7 @@ export const index = () => {
         <Row>
           <h4
             style={{
-              color: '#444444',
+              color: "#444444",
             }}
           >
             What Customers Say About Us
@@ -31,7 +31,7 @@ export const index = () => {
         </Row>
         <Row
           style={{
-            marginTop: '10px',
+            marginTop: "10px",
           }}
         >
           <Col>

@@ -30,7 +30,7 @@ const TeamCard = ({ title, subtitle, image }) => {
         </svg>
       </div>
       <div className='text-content shadow'>
-        <h3 style={{ paddingTop: '20%', color: '#72B63C', fontSize: '1.2vw' }}>
+        <h3 style={{ paddingTop: '20%', color: '#72B63C', fontSize: '1.2em' }}>
           {title}
         </h3>
         <h6>{subtitle}</h6>

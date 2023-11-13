@@ -7,7 +7,7 @@ export const Couter = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
     <Container
-      className='shadow '
+    className= "shadow"
       style={{
         marginTop: '150px',
         justifyContent: 'center',
@@ -15,19 +15,20 @@ export const Couter = () => {
       }}
     >
       <Row
-        className='backDot'
+        className='backDot d-flex justify-content-center align-items-center flex-wrap '
         style={{
           padding: '3%',
         }}
       >
         <Col
           style={{
-            width: '40%',
+            maxWidth: '40%',
           }}
         >
           <h6
             style={{
               color: '#72B63C',
+              fontSize:"2em"
             }}
           >
             Our Awards
@@ -35,7 +36,7 @@ export const Couter = () => {
           <h4
             className='Ourh4'
             style={{
-              fontSize: '1.55vw',
+              fontSize: '1.55em',
               color: '#444444',
             }}
           >
@@ -45,7 +46,7 @@ export const Couter = () => {
             className='pCount'
             style={{
               color: ' #747E93',
-              fontSize: '0.8vw',
+              fontSize: '0.8em',
             }}
           >
             Lorem ipsum dolor sit amet, elit, do risus commodo viverra
@@ -73,6 +74,7 @@ export const Couter = () => {
           </h3>
           <h5 className='h5countTitle'>Projects Done</h5>
         </Col>
+      
       </Row>
     </Container>
   );

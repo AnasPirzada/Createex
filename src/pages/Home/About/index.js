@@ -1,51 +1,48 @@
-import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
-import './style.css';
+import React from "react";
+import "./style.css";
 export const index = () => {
   return (
     <>
-      <div className='aboutbg'>
-        <Container>
-          <Col
-            lg={6}
-            className='d-flex align-items-center justify-content-center flex-column '
-            style={{ height: '90vh' }}
-          >
-            <div className='Contactus pt-4  pb-4 mb-4'>
-              <h1
-                style={{
-                  color: '#72B63C',
-                  fontSize: '25px',
-                }}
-              >
-                Contact Us
-              </h1>
-              <p
-                className='text-white me-4 ms-4 mb-4 mt-4'
-                style={{
-                  fontSize: '9px',
-                }}
-              >
-                Our friendly custom service team always respond to enquiries
-                witchin 24 hours
-              </p>
-              <input placeholder='Name' className='input ' />
-              <input placeholder='Email' className='input  mt-4' />
-              <textarea
-                id='w3review'
-                name='w3review'
-                rows='4'
-                cols='50'
-                placeholder='Message'
-                className='Messageinput  mt-4'
-              ></textarea>
-              {/* <Row className='justify-content-center Align-items-center'> */}
-              <button className='send-btn'>Send</button>
-            </div>
-            {/* </Row> */}
-          </Col>
-          {/* </div> */}
-        </Container>
+      <div class="container">
+        <form id="contact" action="" method="post">
+          <h3>Colorlib Contact Form</h3>
+          <h4>Contact us for custom quote</h4>
+          <fieldset>
+            <input
+              placeholder="Name"
+              type="text"
+              tabindex="1"
+              required
+              autofocus
+            />
+          </fieldset>
+          <fieldset>
+            <input placeholder="Email" type="email" tabindex="2" required />
+          </fieldset>
+          <fieldset>
+            <textarea
+              placeholder="Type your message here...."
+              tabindex="3"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <button
+              name="submit"
+              type="submit"
+              id="contact-submit"
+              data-submit="...Sending"
+            >
+              Submit
+            </button>
+          </fieldset>
+          <p class="copyright">
+            Designed by{" "}
+            <a href="https://colorlib.com" target="_blank" title="Colorlib">
+              Colorlib
+            </a>
+          </p>
+        </form>
       </div>
     </>
   );

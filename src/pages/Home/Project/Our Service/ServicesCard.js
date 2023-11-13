@@ -4,12 +4,12 @@ import '../Our Service/card.css';
 
 export const CardComponent = ({ logoSrc, heading, paragraph }) => {
   return (
-    <div className='d-flex flex-column align-items-center OurService'>
+    <div className='d-flex flex-column align-items-center my-5 OurService'>
       <img className='cardLogo' src={logoSrc} alt='GraphicDesigning' />
       <Card className='service'>
         <h3
           style={{
-            fontSize: '1.3vw',
+            fontSize: '1.2em',
           }}
         >
           {heading}
@@ -19,7 +19,7 @@ export const CardComponent = ({ logoSrc, heading, paragraph }) => {
           style={{
             textAlign: 'center',
             color: '#B6BCC9',
-            fontSize: '0.7vw',
+            fontSize: '0.8em',
           }}
         >
           {paragraph}

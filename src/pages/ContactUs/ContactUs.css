@@ -1,11 +1,10 @@
 .Contactusbg {
   background-image: url('../../SVG/PNG/Aboutbg.png');
-  /* width: 100vh; */
-  /* height: 90vh; */
+  max-width: 100em; 
+  height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 200px;
-  margin-left: 130px;
 }
 .Contactusinput {
   background-color: #707c7f;

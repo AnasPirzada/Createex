@@ -61,25 +61,23 @@
   font-size: 0.9rem;
 }
 .heroh3 {
-  font-size: 2.7rem;
+  font-size: 2em;
 }
 .text-secondary {
-  margin-top: 20px;
+  margin-top: 1em;
   font-size: 1rem;
   width: 65%;
 }
 .scroll-button {
   background-color: #fff;
   border: none;
-  font-size: 1.2vw;
+  font-size: 0.8em;
   justify-content: center;
   cursor: pointer;
   position: relative;
   padding: 10px 30px;
-  overflow: hidden;
   border-radius: 22px;
-  width: 30%;
-  height: 45px;
+  min-width: 20%;
   text-align: left;
   color: #72b63c;
 }
@@ -136,6 +134,7 @@ button:hover .arrow-3 {
     height: 100% !important;
   }
   .heroImage {
-    top: 0;
+    visibility: hidden;
   }
 }
+

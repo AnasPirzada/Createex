@@ -13,12 +13,11 @@ export const CrouselCard = ({ isActive }) => {
           isCenter ? 'center' : ''
         }`}
       >
-        <Card
-          className=''
-          style={{ width: '22rem', height: '19rem', border: 'transparent' }}
+        <Card  
+          style={{ maxWidth: '22rem', minHeight: '19rem', border: 'transparent'  }}
         >
           <Card.Body>
-            <Box
+            <Box 
               sx={{
                 display: 'flex',
                 alignItems: 'center',
@@ -39,7 +38,7 @@ export const CrouselCard = ({ isActive }) => {
                 marginLeft: '10px',
                 marginRight: '10px',
                 marginTop: '10px',
-                fontSize: '0.6vw',
+                fontSize: '0.6rem',
               }}
             >
               A digital agency is a business you hire to outsource your digital
@@ -70,7 +69,7 @@ export const CrouselCard = ({ isActive }) => {
               >
                 <h3
                   style={{
-                    fontSize: '1.3vw',
+                    fontSize: '1.2em',
                     color: '#391400',
                   }}
                 >
@@ -79,7 +78,7 @@ export const CrouselCard = ({ isActive }) => {
                 <h6
                   style={{
                     color: '#391400',
-                    fontSize: '0.8vw',
+                    fontSize: '0.8em',
                   }}
                 >
                   Meta Inc.

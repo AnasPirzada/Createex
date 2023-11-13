@@ -13,7 +13,6 @@ const PortfolioCard = ({ title, imageSrc, detail }) => {
         style={{
           width: '20rem',
           height: '20rem',
-          position: 'absolute',
           borderRadius: '22px',
           marginTop: '70px',
         }}
@@ -38,7 +37,7 @@ const PortfolioCard = ({ title, imageSrc, detail }) => {
                 style={{
                   color: '#444444',
                   textAlign: 'left',
-                  fontSize: '0.8vw',
+                  fontSize: '0.8em',
                 }}
               >
                 {title}
@@ -53,7 +52,7 @@ const PortfolioCard = ({ title, imageSrc, detail }) => {
               </button>
             </Col>
           </Row>
-          <p style={{ color: '#444444', fontSize: '0.6vw', textAlign: 'left' }}>
+          <p style={{ color: '#444444', fontSize: '0.6rem', textAlign: 'left' }}>
             {detail}
           </p>
         </Card.Body>

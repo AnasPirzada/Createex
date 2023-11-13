@@ -10,7 +10,7 @@ export const About = () => {
       <div
         className='AboutBgImage'
         style={{
-          marginTop: '120px',
+          marginTop: '10rem',
           paddingBottom: '150px',
         }}
       >
@@ -26,8 +26,8 @@ export const About = () => {
                   border: 'transparent',
                 }}
               >
-                <h6 style={{ color: '#72B63C' }}>About Us</h6>
-                <h4 style={{ color: '#444444', fontSize: '2.6vw' }}>
+                <h6 style={{ color: '#72B63C', fontSize: '1.2em' }}>About Us</h6>
+                <h4 style={{ color: '#444444', fontSize: '1.8em' }}>
                   We Deal with The
                   <br />
                   Aspects of{' '}
@@ -43,7 +43,7 @@ export const About = () => {
                 </h4>
                 <p
                   className='mt-3 mb-4 text-muted'
-                  style={{ fontSize: '0.8vw' }}
+                  style={{ fontSize: '0.8em' }}
                 >
                   Welcome to Software Housing, your premier destination for
                   cutting-edge software development and design solutions. At

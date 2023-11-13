@@ -13,8 +13,9 @@ export const Portfolio = () => {
             textAlign: 'center',
           }}
         >
-          <Col>
+        
             <Row>
+              <Col>
               <h5
                 style={{
                   marginTop: '10%',
@@ -23,21 +24,19 @@ export const Portfolio = () => {
               >
                 Portfolio
               </h5>
+              </Col>
             </Row>
-          </Col>
-          <Col>
             <Row>
+              <Col>
               <h4>Explore Latest Projects</h4>
+              </Col>
             </Row>
-          </Col>
           <Col>
             <Row>
               <p
                 style={{
-                  width: '50%',
-                  textAlign: 'center',
-                  marginLeft: '300px',
-                  fontSize: '0.8vw',
+                  justifyContent: 'center',
+                  fontSize: '0.8em',
                   color: '#444444',
                 }}
               >
@@ -50,6 +49,7 @@ export const Portfolio = () => {
           <MainTab
             style={{
               marginBottom: '30px !important',
+              justifyContent: 'center',
             }}
           />
         </Container>

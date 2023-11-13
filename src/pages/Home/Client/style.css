@@ -2,7 +2,7 @@
   background-image: url('../../../SVG/PNG/Testimonialbg.png');
   background-position: center;
   background-size: cover;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 200px;
 }

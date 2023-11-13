@@ -18,7 +18,7 @@ const Section = () => {
               marginTop: '12%',
             }}
           >
-            <h6 className='heroh6'>Growth your Business</h6>
+            <h6 className='heroh6'>Grow your Business</h6>
             <h3 className='heroh3 helvetica'>
               From Idea<span className='color'> Gen</span>
               <span className='Gen'>eration</span>
@@ -39,7 +39,7 @@ const Section = () => {
               <img className='arrow-3' src={Third} alt='Arrow 3' />
             </button>
           </Col>
-          <Col lg={1} md={18} className='heroImage' style={{ width: '70%' }}>
+          <Col className='heroImage' style={{ maxWidth: '70%' }}>
             <img className='heroImage' src={bgImg} alt='heroImage' />
           </Col>
         </Row>

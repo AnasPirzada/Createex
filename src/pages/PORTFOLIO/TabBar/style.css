@@ -3,12 +3,12 @@
   margin-left: 5% !important;
 
   border-radius: 22px;
-  width: 89%;
+  max-width : 90%;
 }
 .activeTab-btn {
-  width: 80%;
-  height: 30px;
-  font-size: 0.8vw;
+  min-width: 80%;
+  min-height: 1.7rem;
+  font-size: 0.8em;
 
   color: #72b63c;
   padding: 0px;

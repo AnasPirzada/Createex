@@ -48,7 +48,7 @@ export const index = ({
               <h3
                 style={{
                   color: '#fff',
-                  fontSize: '1.9vw',
+                  fontSize: '1.7rem',
                 }}
               >
                 {Whyus}
@@ -57,7 +57,7 @@ export const index = ({
                 style={{
                   marginTop: '20px',
                   color: ' #72B63C',
-                  fontSize: '1.9vw',
+                  fontSize: '1.9em',
                 }}
               >
                 {mainHeading}
@@ -65,7 +65,7 @@ export const index = ({
             </Row>
             <Row>
               <p
-                style={{ marginTop: '15px', color: ' #fff', fontSize: '0.8vw' }}
+                style={{ marginTop: '15px', color: ' #fff', fontSize: '0.7rem' }}
               >
                 {para}
               </p>
@@ -75,7 +75,7 @@ export const index = ({
                 style={{
                   color: ' #fff',
                   marginTop: '2px',
-                  fontSize: '0.8vw',
+                  fontSize: '0.7rem',
                 }}
               >
                 {para}
@@ -116,31 +116,31 @@ export const index = ({
             }}
           >
             <Row>
-              <h2 className='belowMainheading'>{h3}</h2>
+              <h2 className='belowMainheading' style={{fontSize: "1.7rem"}}>{h3}</h2>
             </Row>
             <Row>
-              <h3 className='belowservicesheading mt-4'>{h1}</h3>
-              <p className='belowservicesimg '>{detail1}</p>
+              <h3 className='belowservicesheading mt-4' style={{fontSize: "1.2rem"}}>{h1}</h3>
+              <p className='belowservicesimg' style={{fontSize: "0.8rem"}}>{detail1}</p>
             </Row>
             <Row>
-              <h3 className='belowservicesheading mt-3'>{h2}</h3>
-              <p className='belowservicesimg'>{detail2}</p>
+              <h3 className='belowservicesheading mt-3' style={{fontSize: "1.2rem"}}>{h2}</h3>
+              <p className='belowservicesimg'  style={{fontSize: "0.8rem"}}>{detail2}</p>
             </Row>
             <Row>
-              <h3 className='belowservicesheading  mt-3'>{h4}</h3>
-              <p className='belowservicesimg'>{detail3}</p>
+              <h3 className='belowservicesheading  mt-3' style={{fontSize: "1.2rem"}}>{h4}</h3>
+              <p className='belowservicesimg'  style={{fontSize: "0.8rem"}}>{detail3}</p>
             </Row>
             <Row>
-              <h3 className='belowservicesheading  mt-3'>{h5}</h3>
-              <p className='belowservicesimg'>{detail4}</p>
+              <h3 className='belowservicesheading  mt-3' style={{fontSize: "1.2rem"}}>{h5}</h3>
+              <p className='belowservicesimg'  style={{fontSize: "0.8rem"}}>{detail4}</p>
             </Row>
             <Row>
-              <h3 className='belowservicesheading  mt-3'>{h6}</h3>
-              <p className='belowservicesimg'>{detail5}</p>
+              <h3 className='belowservicesheading  mt-3' style={{fontSize: "1.2rem"}}>{h6}</h3>
+              <p className='belowservicesimg'  style={{fontSize: "0.8rem"}}>{detail5}</p>
             </Row>
             <Row>
-              <h3 className='belowservicesheading  mt-3'>{h7}</h3>
-              <p className='belowservicesimg'>{detail6}</p>
+              <h3 className='belowservicesheading  mt-3' style={{fontSize: "1.2rem"}}>{h7}</h3>
+              <p className='belowservicesimg'  style={{fontSize: "0.8rem"}}>{detail6}</p>
             </Row>
           </Col>
         </Container>
