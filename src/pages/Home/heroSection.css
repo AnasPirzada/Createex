@@ -115,26 +115,5 @@ button:hover .arrow-3 {
   right: 0; /* Align to the right side */
   width: 78%;
 }
-@media screen and (min-width: 1380px) {
-  .scroll-button {
-    padding: 10px 30px;
-    font-size: 1vw;
-    width: 25%;
-    height: 50px !important;
-  }
-  button:hover .arrow-1 {
-    opacity: 1;
-    padding-left: 50px;
-    justify-content: center;
-    transition: opacity 0.1s ease-in-out;
-  }
-  .background::before {
-    top: 435px !important;
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .heroImage {
-    visibility: hidden;
-  }
-}
+
 

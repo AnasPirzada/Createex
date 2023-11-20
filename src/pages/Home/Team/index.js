@@ -1,5 +1,4 @@
 import { React } from "react";
-
 import { Container, Row, Col } from "react-bootstrap";
 import TeamCard from "./TeamCard/teamCard.js";
 import "./team.css";

@@ -43,89 +43,111 @@ export const Index = () => {
           >
             We Offer a Wide Variety of IT Services
           </h4>
+          <div className=" d-flex justify-content-center mt-5">
+            <span
+              className="span1 text-center px-5 py-2 "
+              style={{
+                color: "#72B63C",
+                fontSize: "1.4em",
+              }}
+            >
+              Development Services
+            </span>
+          </div>
         </Row>
         <Container className="pb-5">
-          <Row>
-            <Col lg={3} md={4} sm={6} xs={12} >
+          <Row className=" d-flex justify-content-center">
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Graphic}
                 heading="Graphic Design"
                 paragraph="Agency provides a full service range including technical skills, design."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={uiUx}
                 heading="Ui / UX"
                 paragraph="Design and propose product improvements through periodical and accurate testing."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={aPI}
                 heading="API integration"
                 paragraph="Cloud Integrate for product improvements through periodical and accurate testing."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Web}
                 heading="Web devlopement"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-          
-            <Col lg={3} md={4} sm={6} xs={12} >
+
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Erp}
                 heading="Erp Solutions"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Ecommerece}
                 heading="E-commerce"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Marketing}
                 heading="Digital Marketing"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Aws}
                 heading="Amazon Web Services"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-          
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <div className=" d-flex justify-content-center mt-5 mb-5">
+              <span
+                className="span1 text-center px-5 py-2 "
+                style={{
+                  color: "#72B63C",
+                  fontSize: "1.4em",
+                }}
+              >
+                Design Services 
+              </span>
+            </div>
+
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Graphic}
                 heading="App Design"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12}>
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={UX}
                 heading="UX Execution"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={Brand}
                 heading="Branding"
                 paragraph="Full service range including technical skills, design, business."
               />
             </Col>
-            <Col lg={3} md={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} md={6} sm={8} xs={11}>
               <ServicesCard
                 logoSrc={AI}
                 heading="Artificial Intelligence"

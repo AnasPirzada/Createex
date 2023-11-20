@@ -9,7 +9,7 @@ export const CardComponent = ({ logoSrc, heading, paragraph }) => {
       <Card className='service'>
         <h3
           style={{
-            fontSize: '1.2em',
+            fontSize: '1.2em'
           }}
         >
           {heading}
